@@ -41,7 +41,7 @@ export default function App() {
     }
     setPopUpMessage(true); //this will trigger the pop up message for the output of the input number
     setIsPrime(primeOrNot(num));//this is to check if the input number is prime
-    setFactorial(checkFactorial(num));//this will calculate the factorial of the input number
+    setFactorial(checkFactorial(num));//this will calculate the factorial of the input number.
   };
 
   return (
