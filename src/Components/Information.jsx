@@ -8,7 +8,7 @@ import { BsDownload } from 'react-icons/bs';
 
 export default function Information() {
   return (
-    <div className="px-4 md:px-16">
+    <div className="px-4 md:px-16 w-full h-auto">
       <div className="flex flex-col md:flex-row justify-around items-center h-auto md:h-96">
         {/* Left Section */}
         <div className="text-white flex flex-col items-center md:items-start justify-center text-center md:text-left mb-8 md:mb-0">
@@ -55,7 +55,7 @@ export default function Information() {
               href="./Resume - Perillo, Jesner Arlan D..pdf"
               download="Resume - Perillo, Jesner Arlan D."
             >
-              <button className="duration-150 flex bg-red-500 text-white p-2 w-28 md:w-36 items-center justify-around rounded hover:bg-white hover:text-red-500">
+              <button className="duration-150 flex bg-red-500 text-white p-2 w-40 md:w-36 items-center justify-around rounded hover:bg-white hover:text-red-500">
                 Download CV <BsDownload />
               </button>
             </a>
@@ -65,7 +65,7 @@ export default function Information() {
         {/* Right Section */}
         <div className="h-auto md:h-full">
           <img
-            className="w-60 md:w-80 h-60 md:h-full object-cover rounded-full border-2 border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
+            className="w-60 rounded-full md:w-80 h-60 md:h-full object-cover sm:rounded-none border-2 border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
             src={Pic}
             alt="Profile Pic"
           />
