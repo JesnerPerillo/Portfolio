@@ -18,7 +18,7 @@ export default function Information() {
           </h1>
           <p className="text-lg md:text-3xl">
             and I am a{' '}
-            <span className="text-green-400 text-2xl md:text-6xl ml-0 md:ml-5">
+            <span className="text-green-500 font-bold text-2xl md:text-6xl ml-0 md:ml-5">
               Software Engineer
             </span>
           </p>

@@ -72,7 +72,7 @@ export default function App() {
         className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 text-center"
         style={{ backgroundImage: `url(${GIFBackground})` }}
       >
-        <div className=" w-full h-screen flex justify-center items-center md:mt-20">
+        <div className=" w-full h-auto ">
           <Information />
         </div>
       </div>
@@ -80,7 +80,7 @@ export default function App() {
       {/*About Section */}
       <div
         ref={about}
-        className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 text-center"
+        className="h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 text-center"
         style={{ backgroundImage: `url(${GIFBackground})` }}
       >
         <About />
