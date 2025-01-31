@@ -72,7 +72,7 @@ export default function App() {
         className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 text-center"
         style={{ backgroundImage: `url(${GIFBackground})` }}
       >
-        <div className="mt-20 w-full h-5/6 flex justify-center items-center md:mt-32">
+        <div className=" w-full h-screen flex justify-center items-center md:mt-20">
           <Information />
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function App() {
       {/*Project Section */}
       <div
         ref={project}
-        className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 text-center"
+        className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4"
         style={{ backgroundImage: `url(${GIFBackground})` }}
       >
         <Projects />

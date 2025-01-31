@@ -13,12 +13,12 @@ export default function Information() {
         {/* Left Section */}
         <div className="text-white flex flex-col items-center md:items-start justify-center text-center md:text-left mb-8 md:mb-0">
           <p className="text-lg md:text-3xl">Hi, I am</p>
-          <h1 className="text-4xl md:text-6xl text-green-500 font-bold tracking-widest mt-5 mb-5">
+          <h1 className="text-4xl md:text-7xl text-green-500 font-bold tracking-widest mt-5 mb-5">
             JESNER PERILLO,
           </h1>
           <p className="text-lg md:text-3xl">
             and I am a{' '}
-            <span className="text-green-400 text-2xl md:text-5xl ml-0 md:ml-5">
+            <span className="text-green-400 text-2xl md:text-6xl ml-0 md:ml-5">
               Software Engineer
             </span>
           </p>
