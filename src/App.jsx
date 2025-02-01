@@ -3,12 +3,14 @@ import GIFBackground from "./Components/GIF.gif";
 import Information from "./Components/Information.jsx";
 import About from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
+import Services from "./Components/Services.jsx";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; 
 
 export default function App() {
   const about = useRef(null);
   const home = useRef(null);
   const project = useRef(null);
+  const services = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const aboutScroll = () => {
@@ -25,6 +27,11 @@ export default function App() {
     project.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     setMenuOpen(false);
   };
+
+  const servicesScroll = () => {
+    services.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setMenuOpen(false);
+  }
 
   return (
     <>
@@ -43,7 +50,7 @@ export default function App() {
             About
           </li>
           <li className="hover:text-green-500 cursor-pointer" onClick={projectScroll}>Projects</li>
-          <li className="hover:text-green-500 cursor-pointer">Contact</li>
+          <li className="hover:text-green-500 cursor-pointer" onClick={servicesScroll}>Services</li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -94,6 +101,20 @@ export default function App() {
       >
         <Projects />
       </div>
+
+      {/*Services Section */}
+      <div
+        ref={services}
+        className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center px-4"
+        style={{ backgroundImage: `url(${GIFBackground})` }}
+      >
+        <Services />
+      </div>
+
+      <footer className="bg-gray-900 w-full h-40 text-white flex flex-col items-center justify-center">
+        <p>&copy; Jesner Arlan D. Perillo</p>
+        <p>Still Developing</p>
+      </footer>
     </>
   );
 }

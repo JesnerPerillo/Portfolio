@@ -19,6 +19,10 @@ export default function About() {
           My primary language is <b>JavaScript</b>, with <b>React JS</b> for front-end and <b>Node JS</b> for back-end.  
           I also work with <b>PHP, Tailwind CSS, MySQL, Git, and GitHub</b> in my capstone development.
         </p>
+
+        <h1 className="text-5xl mt-5 font-bold"><span className=" font-bold border-b-2">EDUCATION</span></h1>
+        <p className="text-2xl mt-5">College - University of Rizal System - Morong Campus</p>
+        <p className="text-2xl">Bachelor of Science in Computer Science</p>
       </div>
 
       {/* Skill Set Section */}
