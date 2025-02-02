@@ -7,7 +7,7 @@ import { FaGitAlt, FaGithub } from "react-icons/fa6";
 
 export default function Projects(){
   return(
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center mt-[350px] sm:mt-0">
       <h1 className="text-5xl text-white font-bold mb-5 mt-10 text-center sm:mb-20 sm:mt-0"><span className="border-t-2 border-r-2 font-bold pr-2">PROJECTS</span></h1>
       <div className="flex text-white h-5/6">
         {/*Right Side */}
