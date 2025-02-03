@@ -55,7 +55,7 @@ export default function Information() {
               href="./Resume - Perillo, Jesner Arlan D..pdf"
               download="Resume - Perillo, Jesner Arlan D."
             >
-              <button className="duration-150 flex bg-red-500 text-white p-2 w-40 md:w-36 items-center justify-around rounded hover:bg-white hover:text-red-500">
+              <button className="duration-150 flex bg-red-500 text-white p-2 w-48 md:w-36 items-center justify-around rounded hover:bg-white hover:text-red-500">
                 Download CV <BsDownload />
               </button>
             </a>

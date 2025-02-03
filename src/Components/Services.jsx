@@ -42,7 +42,7 @@ export default function Services() {
         {/*Left Side */}
         <div className="bg-gray-800 border text-white h-[15rem] w-full flex flex-col items-center justify-around rounded hover:scale-105 transition-transform cursor-pointer sm:w-1/3">
           <h1 className="text-2xl">Tools</h1>
-          <div className="flex w-5/6 justify-around items-center p-2">
+          <div className="flex w-5/6 justify-around items-center p-2 items-center">
             <img src={GitImg} alt="Git Image" className="h-20 sm:w-20 sm:h-20"/>
             <img src={GithubImg} alt="GitHub Image" className="h-20 sm:w-20 sm:h-20"/>
             <img src={GitBashImg} alt="Git Bash Image" className="h-20 sm:w-20 sm:h-20"/>

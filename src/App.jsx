@@ -68,7 +68,7 @@ export default function App() {
               About
             </button>
             <button className="hover:text-green-500" onClick={projectScroll}>Projects</button>
-            <button className="hover:text-green-500">Contact</button>
+            <button className="hover:text-green-500" onClick={servicesScroll}>Services</button>
           </div>
         )}
       </header>
