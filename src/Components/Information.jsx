@@ -65,7 +65,7 @@ export default function Information() {
         {/* Right Section */}
         <div className="h-auto md:h-full">
           <img
-            className="w-60 rounded-full md:w-80 h-60 md:h-full object-cover sm:rounded-none border-2 border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
+            className="w-60 rounded-full md:w-80 h-60 md:h-full object-cover sm:rounded-none sm:rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105"
             src={Pic}
             alt="Profile Pic"
           />
